@@ -1,0 +1,19 @@
+# https://docs.github.com/en/code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions#approve-a-pull-request
+name: Dependabot auto-merge
+on: pull_request
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  dependabot:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    # https://unix.stackexchange.com/a/82610
+    steps:
+      - name: Enable auto-merge for Dependabot PRs
+        run: for i in {1..5}; do gh pr merge --merge "$PR_URL" --delete-branch && break || sleep 15; done
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "pull",
+            "type": "shell",
+            "command": "git pull --recurse-submodules"
+        },
+        {
+            "label": "update",
+            "type": "shell",
+            "command": "git submodule update --init --recursive"
+        }
+    ]
+}
