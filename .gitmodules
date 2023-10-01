@@ -28,3 +28,6 @@
 [submodule "transforms3d-typings"]
 	path = transforms3d-typings
 	url = https://github.com/bellflight/transforms3d-typings
+[submodule "AVR-VMC-Sandbox-Module"]
+	path = AVR-VMC-Sandbox-Module
+	url = https://github.com/bellflight/AVR-VMC-Sandbox-Module
