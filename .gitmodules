@@ -21,7 +21,7 @@
 	url = https://github.com/nathanvaughn/AVR-VMC
 [submodule "github-actions"]
 	path = github-actions
-	url = https://github.com/nathanvaughn/github-actions
+	url = https://github.com/nathanvaughn/AVR-github-actions
 [submodule "pymap3d-typings"]
 	path = pymap3d-typings
 	url = https://github.com/nathanvaughn/pymap3d-typings
