@@ -1,33 +1,33 @@
 [submodule "AVR-Docs"]
 	path = AVR-Docs
-	url = https://github.com/bellflight/AVR-Docs
+	url = https://github.com/nathanvaughn/AVR-Docs
 [submodule "AVR-GUI"]
 	path = AVR-GUI
-	url = https://github.com/bellflight/AVR-GUI
+	url = https://github.com/nathanvaughn/AVR-GUI
 [submodule "AVR-PCC-Firmware"]
 	path = AVR-PCC-Firmware
-	url = https://github.com/bellflight/AVR-PCC-Firmware
+	url = https://github.com/nathanvaughn/AVR-PCC-Firmware
 [submodule "AVR-PX4-Firmware"]
 	path = AVR-PX4-Firmware
-	url = https://github.com/bellflight/AVR-PX4-Firmware
+	url = https://github.com/nathanvaughn/AVR-PX4-Firmware
 [submodule "AVR-Python-arm-deb"]
 	path = AVR-Python-arm-deb
-	url = https://github.com/bellflight/AVR-Python-arm-deb
+	url = https://github.com/nathanvaughn/AVR-Python-arm-deb
 [submodule "AVR-Python-Libraries"]
 	path = AVR-Python-Libraries
-	url = https://github.com/bellflight/AVR-Python-Libraries
+	url = https://github.com/nathanvaughn/AVR-Python-Libraries
 [submodule "AVR-VMC"]
 	path = AVR-VMC
-	url = https://github.com/bellflight/AVR-VMC
+	url = https://github.com/nathanvaughn/AVR-VMC
 [submodule "github-actions"]
 	path = github-actions
-	url = https://github.com/bellflight/github-actions
+	url = https://github.com/nathanvaughn/github-actions
 [submodule "pymap3d-typings"]
 	path = pymap3d-typings
-	url = https://github.com/bellflight/pymap3d-typings
+	url = https://github.com/nathanvaughn/pymap3d-typings
 [submodule "transforms3d-typings"]
 	path = transforms3d-typings
-	url = https://github.com/bellflight/transforms3d-typings
+	url = https://github.com/nathanvaughn/transforms3d-typings
 [submodule "AVR-VMC-Sandbox-Module"]
 	path = AVR-VMC-Sandbox-Module
-	url = https://github.com/bellflight/AVR-VMC-Sandbox-Module
+	url = https://github.com/nathanvaughn/AVR-VMC-Sandbox-Module
